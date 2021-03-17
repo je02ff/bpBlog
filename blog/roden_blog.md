@@ -8,11 +8,13 @@ In November of 2011 a record setting 5.7 magnitude earthquake occured in central
 
 2.
 
-![https://github.com/je02ff/bpBlog/blob/main/blog/me.HEIC]()
+```
+![alt text](https://github.com/je02ff/bpBlog/blob/main/blog/me.HEIC)
+```
 
 3.
 
-![https://github.com/je02ff/bpBlog/blob/main/blog/profilepic.jpg]()
+
 
 4.
 
