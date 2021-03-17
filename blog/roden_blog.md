@@ -202,7 +202,7 @@ This was a lot for me to process at first so I started out by just writing some 
 
 Now my solution uses a double nested for loop, so will be O(n^2).  I am sure there is a more efficient solution than this, but its what I ran with for now ;-)
 
-Logic structure in hand I then set out to put all of this in action through an Azure HTTP trigger function that executes every 10 minutes to check for new quakes!
+Logic structure in hand I then set out to put all of this in action through an Azure HTTP timer function that executes every 10 minutes to check for new quakes!
 
 ```javascript
 const fetch = require('node-fetch');
