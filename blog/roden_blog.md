@@ -1,26 +1,14 @@
-1.
-
 **Abstract:**
 
 In November of 2011 a record setting 5.7 magnitude earthquake occured in central Oklahoma, rattling buildings and the nerves of residents throughout the state.  Prior to this, earthquakes were quite rare in my home state, but it is now one of the most seismically active areas in the US.  Fortunately the majority of these quakes are quite small and regulations have been imposed on waste water injection wells to mitigate their occurence, but they do still occur.  I previously worked as a geologist, so admitedly have more than a passing interest in the frequency and scale of these quakes, and often find myself at the USGS website searching for the magnitude of the last earthquake I've felt. So I created my web app, smsEarthquake Alert.
 
  Unfortunately there is no way to predict earthquakes before they happen and mother nature will be the first to let you know when the big one hits.  But my web app monitors real time earthquake data provided by the USGS and using location and other cutoff critera a user specifies, will send a text message informing the user about a quake's magnitude, epicenter and depth shortly after it occurs.
 
-2.
 
-   <img src="me.png" alt="me" style="zoom:67%;" />
 
-3.
 
-![profilepic](profilepic.jpg)
 
-4.
-
-smsEarthquake Alert monitors real time earthquake data provided by the USGS. Using location and other cutoff criteria a user specifies it will send a text message informing the user about a quake's magnitude, epicenter and depth shortly after it occurs.
-
-5.
-
-**Step-by-step blog**
+**smsEarrthquake Alert**
 
 Hello! My name is Jeff Roden and I am a non-traditional student at Oklahoma State University.  I previously worked as a geologist for the past 10 years and am currently in the middle of a career pivot to software engineering.  When it came time to choose a personal project, I knew that I wanted to blend my past experience into mine somehow.  So I decided to make smsEarthquake Alert!  It is a web app that utilizes Microsoft Azure functions, Cosmos DB, Twilio, and an API from the USGS that provides real time earthquake data.  A text message is then sent out letting you know the location and magnitude of a recent earthquake in an area of interest decided on by the user.
 
